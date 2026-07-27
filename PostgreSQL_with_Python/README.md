@@ -1,93 +1,84 @@
-# PostgreSQL with Python
+# PostgreSQL Database Basics
 
-## Overview
-
-This folder contains notes and examples for using **PostgreSQL with Python**. It covers connecting Python to PostgreSQL, working with databases using `psycopg2`, understanding SQLAlchemy ORM, performing CRUD operations, managing database sessions, and handling database migrations with Alembic.
-
-These notes are intended for learning modern PostgreSQL development in Python and follow a structured, beginner-friendly approach.
+This folder contains beginner-friendly notes and examples for learning PostgreSQL fundamentals. It covers PostgreSQL installation, command-line usage, pgAdmin, database management, table operations, data types, CRUD operations, and constraints.
 
 ---
 
-## Contents
-
-1. Introduction
-2. psycopg2
-3. SQLAlchemy ORM
-4. Project Structure
-5. Database Connection
-6. Models
-7. CRUD Operations
-8. Sessions
-9. Alembic
-10. Project Architecture
-
----
-
-## Libraries Used
-
-| Library | Purpose |
-|---------|---------|
-| psycopg2-binary | Connect Python to PostgreSQL |
-| SQLAlchemy | Object Relational Mapping (ORM) |
-| Alembic | Database schema migrations |
-
----
-
-## Learning Objectives
-
-After completing these notes, you will be able to:
-
-- Connect Python with PostgreSQL.
-- Execute SQL queries using `psycopg2`.
-- Work with SQLAlchemy ORM.
-- Create database models.
-- Perform CRUD operations.
-- Manage database sessions.
-- Apply database migrations using Alembic.
-- Organize a professional PostgreSQL project.
-
----
-
-## Project Workflow
+# Folder Structure
 
 ```text
-Python
-   │
-   ▼
-psycopg2 / SQLAlchemy
-   │
-   ▼
-PostgreSQL Database
-   │
-   ▼
-CRUD Operations
-   │
-   ▼
-Database Migrations (Alembic)
-```
-
----
-
-## Repository Structure
-
-```text
-PostgreSQL_with_Python
+PostgreSQL_database_Basics
 │
-├── 01_Introduction.md
-├── 02_psycopg2.md
-├── 03_SQLAlchemy_ORM.md
-├── 04_Project_Structure.md
-├── 05_Database_Connection.md
-├── 06_Models.md
-├── 07_CRUD_Operations.md
-├── 08_Sessions.md
-├── 09_Alembic.md
-├── 10_Project_Architecture.md
+├── 01_PostgreSQL_Introduction.md
+├── 02_Installation_and_Setup.md
+├── 03_PostgreSQL_CLI.md
+├── 04_pgAdmin_GUI.md
+├── 05_Create_Database_and_Users.sql
+├── 06_PostgreSQL_Table_Commands.md
+├── 07_PostgreSQL_Data_Types.md
+├── 08_PostgreSQL_CRUD_Operations.md
+├── 09_PostgreSQL_Constraints.md
 └── README.md
 ```
 
 ---
 
-## Conclusion
+# Topics Covered
 
-This section provides a practical introduction to building PostgreSQL applications with Python. By combining `psycopg2`, SQLAlchemy ORM, and Alembic, developers can create clean, maintainable, and scalable database applications.
+- PostgreSQL Introduction
+- Installation and Setup
+- PostgreSQL Command Line Interface (psql)
+- pgAdmin GUI
+- Creating Databases
+- Creating Users (Roles)
+- PostgreSQL Table Commands
+- PostgreSQL Data Types
+- CRUD Operations (Create, Read, Update, Delete)
+- PostgreSQL Constraints
+
+---
+
+# Requirements
+
+- PostgreSQL
+- pgAdmin 4
+- psql (Command-Line Interface)
+
+---
+
+# Learning Objectives
+
+After completing these notes, you will be able to:
+
+- Install and configure PostgreSQL
+- Connect to PostgreSQL using the CLI
+- Use pgAdmin to manage databases
+- Create and manage databases
+- Create, modify, and delete tables
+- Choose appropriate PostgreSQL data types
+- Perform CRUD operations using SQL
+- Apply constraints to maintain data integrity
+
+---
+
+# Next Step
+
+After completing the PostgreSQL basics, continue with the **PostgreSQL_with_Python** folder to learn:
+
+- psycopg2
+- SQLAlchemy ORM
+- Database Sessions
+- Models
+- CRUD Operations using SQLAlchemy
+- Alembic
+- Project Architecture
+
+---
+
+# Author
+
+**Rameez Raja**
+
+Software Engineering Student
+
+Learning SQL, SQLite, PostgreSQL, Python, Linux, Git & GitHub.
