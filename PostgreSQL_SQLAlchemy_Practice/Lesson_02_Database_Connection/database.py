@@ -1,3 +1,5 @@
+# we wrote these 2 lines,to import creae_engine and sessionmaker,which are available in sqlalchemy library,we will use in each database.py file
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
