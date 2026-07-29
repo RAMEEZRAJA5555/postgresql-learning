@@ -8,7 +8,7 @@ from crud import (
     update_contact,
     delete_contact
 )
-
+                               #that line will create the tables which we define in models.py if they do not exists
 Base.metadata.create_all(bind=engine)
                                   #that while loop will run forever untill break
 while True:
