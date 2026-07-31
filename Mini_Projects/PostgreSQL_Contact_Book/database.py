@@ -1,9 +1,15 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = "postgresql://postgres:rameezpostgres78@localhost:5432/PostgreSQL_Contact_Book"
+DATABASE_URL=os.getenv("DATABASE_URL")
 
 engine = create_engine(DATABASE_URL)
+
 
 SessionLocal = sessionmaker(
     autocommit=False,
