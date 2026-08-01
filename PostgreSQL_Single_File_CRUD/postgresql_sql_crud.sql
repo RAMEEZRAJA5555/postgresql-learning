@@ -16,6 +16,9 @@ INSERT INTO studentcrud
 VALUES
 ('Ali','101A','ali@gmail.com','Software Engineering',4,3.60);
 
+
+--rerieve all data
+
 SELECT * FROM studentcrud;
 
 UPDATE studentcrud
